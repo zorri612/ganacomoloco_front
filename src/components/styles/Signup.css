@@ -71,16 +71,21 @@
     background-color: #17c900;
   }
   
-  .login-link {
-    text-align: center;
-    margin-top: 1rem;
+  .login-button {
+    display: inline-block; /* Para que se comporte como un bloque */
+    background-color: #1eff00; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    transition: background-color 0.2s; /* Transición para el hover */
   }
   
-  .login-link a {
-    color: #4f46e5;
-    text-decoration: none;
+  .login-button:hover {
+    background-color: #17c900; /* Color de fondo al pasar el ratón */
   }
   
-  .login-link a:hover {
-    text-decoration: underline;
-  }

@@ -93,8 +93,11 @@ export default function Signup({ role }) {
           </button>
         </form>
         <div className="login-link">
-          <Link to="/Form">¿Ya tienes una cuenta? Inicia sesión</Link>
+          <Link to="/Form" className="login-button">
+            ¿Ya tienes una cuenta? Inicia sesión
+          </Link>
         </div>
+
       </div>
     </div>
   );
