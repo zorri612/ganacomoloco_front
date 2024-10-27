@@ -12,82 +12,71 @@ body {
   align-items: center;
 }
 
-.signup-container {
-  text-align: center;
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.login-form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
 }
 
-.login-container{
-  background-color: #1a202c;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.signup-form-container {
-  background-color: #1a202c; /* Fondo oscuro del contenedor */
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
 h2 {
-  color: #ffffff; /* Título en blanco */
-  font-size: 1.75rem;
-  margin-bottom: 20px;
   text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
-.signup-form {
+.login-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
 }
 
 .form-group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
-.form-group label {
-  color: #cbd5e0; /* Color de las etiquetas */
-  font-size: 0.875rem;
+label {
+  display: block;
   margin-bottom: 0.5rem;
+  color: #4b5563;
 }
 
-.form-group input {
+input {
   width: 100%;
   padding: 0.5rem;
-  background-color: #2d3748; /* Fondo oscuro de los inputs */
-  border: 1px solid #5374ad;
-  border-radius: 4px;
-  color: #ffffff; /* Texto de los inputs en blanco */
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
   font-size: 1rem;
 }
 
-.form-group input:focus {
+input:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5);
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
 }
 
 .submit-button {
-  background-color: #1eff00; /* Botón verde vibrante */
-  color: #000000;
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.75rem;
   border: none;
-  border-radius: 4px;
-  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s;
 }
 
 .submit-button:hover {
-  background-color: #00e600;
+  background-color: #4338ca;
 }
 
 .signup-link {
@@ -96,17 +85,10 @@ h2 {
 }
 
 .signup-link a {
-  color: #667eea;
+  color: #4f46e5;
   text-decoration: none;
 }
 
 .signup-link a:hover {
   text-decoration: underline;
-}
-
-.form-title_gcl {
-  color: #1eff00;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-align: center;
 }
