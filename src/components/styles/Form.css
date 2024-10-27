@@ -41,6 +41,7 @@ h2 {
 
 .form-group {
   margin-bottom: 1rem;
+  color: #ffff;
 }
 
 label {
@@ -90,4 +91,10 @@ input:focus {
 
 .signup-link a:hover {
   text-decoration: underline;
+}
+.form-title_gcl {
+  color: #1eff00;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
 }
