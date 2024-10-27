@@ -61,8 +61,11 @@ export default function Login({ callback }) {
           </button>
         </form>
         <div className="signup-link">
-          <Link to="/Signup">¿No tienes una cuenta? Regístrate</Link>
+          <Link to="/Signup" className="signup-button">
+            ¿No tienes una cuenta? Regístrate
+          </Link>
         </div>
+
       </div>
     </div>
   );
