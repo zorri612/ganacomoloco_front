@@ -1,10 +1,13 @@
 .signup-container {
   background-color: #1a202c;
   border-radius: 8px;
-  padding: 100px;
+  padding: 2rem; /* Reduce el padding */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: center;
-  }
+  display: flex; /* Utiliza flexbox para centrar el contenido */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 100vh; /* Asegura que ocupe al menos la altura de la ventana */
+}
   .words{
     color: white;
   }
