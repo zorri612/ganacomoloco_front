@@ -43,7 +43,8 @@ export default function Login({ callback }) {
   return (
     <div className="login-container">
       <div className="login-form-container">
-        <h2>Iniciar sesiónnnnn</h2>
+      <h1>GANA COMO LOCO !</h1>
+        <h2>Inicia Sesion</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
             <label htmlFor="email-address">Correo electrónico</label>        
