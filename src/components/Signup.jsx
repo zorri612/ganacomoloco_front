@@ -74,8 +74,19 @@ export default function Signup({ role }) {
           </div>
           <div className="form-group">
             <label className='words' htmlFor="city">Ciudad</label>
-            <input type="text" name="city" id="city" required placeholder="Ciudad" value={formData.city} onChange={handleChange}
-            />
+            <select name="city" id="city" required value={formData.city} onChange={handleChange}>
+              <option value="">Selecciona una ciudad</option>
+              <option value="Bogotá">Bogotá</option>
+              <option value="Medellín">Medellín</option>
+              <option value="Cali">Cali</option>
+              <option value="Barranquilla">Barranquilla</option>
+              <option value="Cartagena">Cartagena</option>
+              <option value="Bucaramanga">Bucaramanga</option>
+              <option value="Pereira">Pereira</option>
+              <option value="Manizales">Manizales</option>
+              <option value="Santa Marta">Santa Marta</option>
+              <option value="Cúcuta">Cúcuta</option>
+            </select>
           </div>
           <button type="submit" className="submit-button">
             Registrarse
