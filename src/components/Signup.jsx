@@ -42,38 +42,38 @@ export default function Signup({ role }) {
         <h2>Crear una cuenta {role === 'admin' ? 'de Administrador' : 'de Usuario'}</h2>
         <form className="signup-form" onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="email">Correo electrónico</label>
+            <label className='words' htmlFor="email">Correo electrónico</label>
             <input type="email" name="email" id="email" autoComplete="email" required placeholder="Correo electrónico" value={formData.email} onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Contraseña</label>
+            <label className='words' htmlFor="password">Contraseña</label>
             <input type="password" name="password" id="password" autoComplete="new-password" required placeholder="Contraseña" value={formData.password} onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="name">Nombre</label>
+            <label className='words' htmlFor="name">Nombre</label>
             <input type="text" name="name" id="name" autoComplete="name" required placeholder="Nombre" value={formData.name}
               onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="phone">Celular</label>
+            <label className='words' htmlFor="phone">Celular</label>
             <input type="tel" name="phone" id="phone" autoComplete="tel" required placeholder="Celular" value={formData.phone}
               onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="birthdate">Fecha de nacimiento</label>
+            <label className='words' htmlFor="birthdate">Fecha de nacimiento</label>
             <input type="date" name="birthdate" id="birthdate" required value={formData.birthdate} onChange={handleChange} />
           </div>
           <div className="form-group">
-            <label htmlFor="idNumber">Cédula</label>
+            <label className='words' htmlFor="idNumber">Cédula</label>
             <input type="text" name="idNumber" id="idNumber" required placeholder="Cédula" value={formData.idNumber} onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="city">Ciudad</label>
+            <label className='words' htmlFor="city">Ciudad</label>
             <input type="text" name="city" id="city" required placeholder="Ciudad" value={formData.city} onChange={handleChange}
             />
           </div>
