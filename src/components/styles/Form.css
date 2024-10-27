@@ -70,16 +70,7 @@ input:focus {
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
 }
 
-.submit-button {
-  background-color: #1eff00;
-  color: black;
-  padding: 0.75rem;
-  border: none;
-  border-radius: 0.25rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
+
 
 .submit-button:hover {
   background-color: #17c900;
@@ -118,14 +109,23 @@ input:focus {
   color: black; /* Color del texto */
   padding: 0.75rem ; /* Espaciado interno */
   border: none; /* Sin borde */
-  border-radius: 0.22; /* Bordes redondeados */
+  border-radius: 0.22rem; /* Bordes redondeados */
   font-size: 1rem; /* Tamaño de fuente */
   text-align: center; /* Centra el texto */
   text-decoration: none; /* Sin subrayado */
   cursor: pointer; /* Cambia el cursor a pointer */
   transition: background-color 0.2s; /* Transición para el hover */
 }
-
+.submit-button {
+  background-color: #1eff00;
+  color: black;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
 .signup-button:hover {
   background-color: #17c900; /* Color de fondo al pasar el ratón */
 }
