@@ -43,7 +43,7 @@ export default function Login({ callback }) {
   return (
     <div className="login-container">
       <div className="login-form-container">
-      <h1>GANA COMO LOCO !</h1>
+      <center><h1>GANA COMO LOCO !</h1></center>
         <h2>Inicia Sesion</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
