@@ -30,10 +30,16 @@ body {
 
 h2 {
   text-align: center;
-  color: #333;
+  color: #ffff;
   margin-bottom: 1.5rem;
 }
 
+.correo{
+  color: #ffff
+}
+.contra{
+  color: #ffff
+}
 .login-form {
   display: flex;
   flex-direction: column;
@@ -80,6 +86,7 @@ input:focus {
 }
 
 .signup-link {
+  color: aliceblue;
   text-align: center;
   margin-top: 1rem;
 }

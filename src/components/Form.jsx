@@ -47,12 +47,12 @@ export default function Login({ callback }) {
         <h2>Inicia Sesion</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
-            <label htmlFor="email-address">Correo electrónico</label>        
+            <label className='correo' htmlFor="email-address">Correo electrónico</label>        
             <input type="email" name="email" id="email" autoComplete="email" required placeholder="Correo electrónico" value={email} onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Contraseña</label>
+            <label className='contra' htmlFor="password">Contraseña</label>
             <input type="password" name="password" id="password" autoComplete="current-password" required placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)}
             />
           </div>
