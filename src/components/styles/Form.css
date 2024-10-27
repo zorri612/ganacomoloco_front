@@ -28,7 +28,7 @@ body {
   position: relative;
 }
 
-h2 {
+.h2 {
   text-align: center;
   color: #ffff;
   margin-bottom: 1.5rem;
@@ -92,7 +92,7 @@ input:focus {
 }
 
 .signup-link a {
-  color: #4f46e5;
+  color: #ffffff;
   text-decoration: none;
 }
 
