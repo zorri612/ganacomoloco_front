@@ -19,7 +19,7 @@ body {
 }
 
 .signup-form-container {
-  background-color: #1a202c;
+  background-color: #1a202c; /* Fondo oscuro del contenedor */
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -27,8 +27,8 @@ body {
 }
 
 h2 {
-  color: #1eff00; /* Título en verde neón */
-  font-size: 2rem;
+  color: #ffffff; /* Título en blanco */
+  font-size: 1.75rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 .form-group label {
-  color: #a0aec0;
+  color: #cbd5e0; /* Color de las etiquetas */
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
 }
@@ -54,10 +54,10 @@ h2 {
 .form-group input {
   width: 100%;
   padding: 0.5rem;
-  background-color: #2d3748;
+  background-color: #2d3748; /* Fondo oscuro de los inputs */
   border: 1px solid #5374ad;
   border-radius: 4px;
-  color: #ffffff;
+  color: #ffffff; /* Texto de los inputs en blanco */
   font-size: 1rem;
 }
 
@@ -68,7 +68,7 @@ h2 {
 }
 
 .submit-button {
-  background-color: #1eff00;
+  background-color: #1eff00; /* Botón verde vibrante */
   color: #000000;
   border: none;
   border-radius: 4px;
