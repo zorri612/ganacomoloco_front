@@ -41,7 +41,7 @@ export default function AdminHome({ user }) {
     return (
         <div className="admin-home">
             <header className="admin-home-header">
-                <h1>Panel de Administración</h1>
+                <h1>Gana Como Loco - Admin Pane</h1>
                 <button onClick={handleLogout} className="logout-button">Salir</button>
             </header>
             
