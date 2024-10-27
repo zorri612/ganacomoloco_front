@@ -86,13 +86,13 @@ input:focus {
 }
 
 .signup-link {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-top: 1rem;
 }
 
 .signup-link a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -116,9 +116,9 @@ input:focus {
   display: inline-block; /* Para que se comporte como un bloque */
   background-color: #1eff00; /* Color de fondo del botón */
   color: black; /* Color del texto */
-  padding: 0.75rem 1.5rem; /* Espaciado interno */
+  padding: 0.75rem ; /* Espaciado interno */
   border: none; /* Sin borde */
-  border-radius: 4px; /* Bordes redondeados */
+  border-radius: 0.22; /* Bordes redondeados */
   font-size: 1rem; /* Tamaño de fuente */
   text-align: center; /* Centra el texto */
   text-decoration: none; /* Sin subrayado */
