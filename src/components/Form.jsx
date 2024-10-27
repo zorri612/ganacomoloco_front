@@ -44,7 +44,7 @@ export default function Login({ callback }) {
     <div className="login-container">
       <div className="login-form-container">
       <center><h1 className='form-title_gcl'>GANA COMO LOCO !</h1></center>
-        <h2>Inicia Sesion</h2>
+        <h2 className='inisesion'>Inicia Sesion</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
             <label className='correo' htmlFor="email-address">Correo electrónico</label>        
