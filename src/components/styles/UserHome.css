@@ -1,113 +1,141 @@
 .user-home {
-  background-color: #1a202c;
+  background-color: #1a202c; /* Color de fondo del contenedor */
   border-radius: 8px;
-  padding: 100px;
+  padding: 20px; /* Reducir el padding para que no abarque todo el espacio */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
+}
+
+.user-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.regis {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.words {
+  color: #ffff;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.register-code-section {
+  margin-bottom: 30px;
+}
+
+.register-code-form {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group {
+  flex-grow: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-button {
+  background-color: #1eff00;
+  color: black;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: #16c000;
+}
+
+.registered-codes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Espacio adicional antes de la tabla */
+  background-color: #2d3748; /* Fondo de la tabla */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.registered-codes-table th,
+.registered-codes-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.registered-codes-table th {
+  background-color: #1a202c; /* Fondo oscuro para el encabezado */
+  font-weight: bold;
+  color: #ffffff; /* Texto blanco para el encabezado */
+}
+
+.registered-codes-table tr:nth-child(even) {
+  background-color: #3d3d3d; /* Color de fondo para filas pares */
+  color: #ffffff; /* Texto blanco para filas pares */
+}
+
+.registered-codes-table tr:nth-child(odd) {
+  background-color: #4a5568; /* Color de fondo para filas impares */
+  color: #ffffff; /* Texto blanco para filas impares */
+}
+
+.registered-codes-table tr:hover {
+  background-color: #3b3f47; /* Color de fondo del hover */
+  color: #ffffff; /* Texto blanco en hover */
+}
+
+@media (max-width: 768px) {
+  .user-home {
+      padding: 10px;
   }
-  
-  .user-home-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
+
   .welcome {
-    font-size: 24px;
-    color: #ffffff;
-    padding: 10px;
+      font-size: 20px;
   }
-  
+
   .regis {
-    font-size: 20px;
-    color: #ffffff;
-    margin-bottom: 15px;
+      font-size: 18px;
   }
-  .words{
-    color: #ffff
-  }
-  
-  .logout-button {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .logout-button:hover {
-    background-color: #d32f2f;
-  }
-  
-  .register-code-section {
-    margin-bottom: 30px;
-  }
-  
-  .register-code-form {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .form-group {
-    flex-grow: 1;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .register-button {
-    background-color: #1eff00;
-    color: black;
-    border: none;
-    padding: 6px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .register-button:hover {
-    background-color: #16c000;
-  }
-  
-  .registered-codes-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
+
   .registered-codes-table th,
   .registered-codes-table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    color: white;
+      padding: 8px;
+      font-size: 14px;
   }
-  
-  .registered-codes-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .registered-codes-table tr:nth-child(even) {
-    background-color: #3d3d3d;
-    color: black;
-  }
-  
-  .registered-codes-table tr:hover {
-   background-color: #3d3d3d;
-    color: black;
-  }
+}

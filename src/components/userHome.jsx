@@ -89,7 +89,7 @@ export default function UserHome({ user }) {
 
       <main>
         <section className="register-code-section">
-          <h2 className="regis">Empieza con registrar tus códigos...</h2>
+          <h2 className="regis">Empieza por registrar tus códigos...</h2>
           <form onSubmit={handleSubmit} className="register-code-form">
             <div className="form-group">
               <label className="words" htmlFor="code-input">Código:</label>
