@@ -1,13 +1,13 @@
 .signup-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f3f4f6;
+  background-color: #1a202c;
+  border-radius: 8px;
+  padding: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
   }
   
   .signup-form-container {
-    background-color: white;
+    background-color: #1a202c;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
