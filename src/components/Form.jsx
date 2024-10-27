@@ -10,7 +10,7 @@ export default function Login({ callback }) {
   const validateUser = async (event)=>{
     event.preventDefault();
     try {
-        const response = await fetch('https://promocion-back.vercel.app/user/login', {
+        const response = await fetch('https://ganacomoloco-back.vercel.app/user/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
