@@ -81,7 +81,7 @@ export default function UserHome({ user }) {
   return (
     <div className="user-home">
       <header className="user-home-header">
-        <h1 className="welcome" >Bienvenido</h1>
+        <h1 className="welcome" >Bienvenido a Gana Como Loco!</h1>
         <button onClick={handleLogout} className="logout-button">
           Salir
         </button>
@@ -89,7 +89,7 @@ export default function UserHome({ user }) {
 
       <main>
         <section className="register-code-section">
-          <h2 className="regis">Registrar Código</h2>
+          <h2 className="regis">Empieza con registrar tus códigos...</h2>
           <form onSubmit={handleSubmit} className="register-code-form">
             <div className="form-group">
               <label className="words" htmlFor="code-input">Código:</label>
