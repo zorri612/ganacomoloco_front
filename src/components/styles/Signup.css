@@ -65,6 +65,7 @@
     cursor: pointer;
     transition: background-color 0.2s;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
   
   .submit-button:hover {
