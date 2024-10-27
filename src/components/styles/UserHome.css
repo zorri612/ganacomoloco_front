@@ -14,13 +14,16 @@
   
   h1 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
   }
   
   h2 {
     font-size: 20px;
-    color: #444;
+    color: #ffffff;
     margin-bottom: 15px;
+  }
+  .words{
+    color: #ffff
   }
   
   .logout-button {

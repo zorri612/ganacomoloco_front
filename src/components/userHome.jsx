@@ -81,7 +81,7 @@ export default function UserHome({ user }) {
   return (
     <div className="user-home">
       <header className="user-home-header">
-        <h1>Bienvenido</h1>
+        <h1 >Bienvenido</h1>
         <button onClick={handleLogout} className="logout-button">
           Salir
         </button>
@@ -89,10 +89,10 @@ export default function UserHome({ user }) {
 
       <main>
         <section className="register-code-section">
-          <h2>Registrar Código</h2>
+          <h2 >Registrar Código</h2>
           <form onSubmit={handleSubmit} className="register-code-form">
             <div className="form-group">
-              <label htmlFor="code-input">Código:</label>
+              <label className="words" htmlFor="code-input">Código:</label>
               <input type="number" value={code} required placeholder="Ingrese el código"
                 onChange={(e) => {
                   const value = e.target.value;
@@ -110,7 +110,7 @@ export default function UserHome({ user }) {
         </section>
 
         <section className="registered-codes-section">
-          <h2>Códigos Registrados</h2>
+          <h2 >Códigos Registrados</h2>
           <table className="registered-codes-table">
             <thead>
               <tr>
