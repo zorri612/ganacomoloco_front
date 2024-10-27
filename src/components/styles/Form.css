@@ -98,3 +98,10 @@ input:focus {
   margin-bottom: 20px;
   text-align: center;
 }
+
+.email-address{
+  color: #ffff
+}
+.password{
+  color: #ffff
+}
