@@ -21,7 +21,7 @@ export default function Signup({ role }) {
       alert("El número de celular debe tener al menos 10 dígitos.");
       return;
     }
-    if (formData.idNumber.length > 8) {
+    if (formData.idNumber.length < 8) {
       alert("La cédula debe tener al menos 8 dígitos.");
       return;
     }
