@@ -37,13 +37,16 @@ export default function AdminHome({ user }) {
     const handleLogout = () => {
         home("/");
     };
+    const handleLogoutAdmin = () => {
+        home("/signup");
+    };
 
     return (
         <div className="admin-home">
             <header className="admin-home-header">
                 <h1>Gana Como Loco - Admin Pane</h1>
                 <button onClick={handleLogout} className="logout-button">Salir</button>
-                <button onClick={handleLogout} className="logout-button-admin">Agregar Admin</button>  
+                <button onClick={handleLogoutAdmin} className="logout-button-admin">Agregar Admin</button>  
             </header>
             
             <main>
