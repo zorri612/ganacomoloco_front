@@ -43,7 +43,7 @@ export default function AdminHome({ user }) {
             <header className="admin-home-header">
                 <h1>Gana Como Loco - Admin Pane</h1>
                 <button onClick={handleLogout} className="logout-button">Salir</button>
-                <button onClick={handleLogout} className="logout-button">Agregar Admin</button>  
+                <button onClick={handleLogout} className="logout-button-admin">Agregar Admin</button>  
             </header>
             
             <main>
